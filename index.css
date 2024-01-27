@@ -1,0 +1,243 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background:rgba(0, 34, 97, 0.914);
+    margin: 0px;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+
+body h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4em;
+    color: #e2b932;
+    text-shadow: 1px 1px 1px black;
+}
+.navbar{
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0,0.6);
+    height: 102px; 
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.navbar h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 11rem;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 5px white;
+}
+.menu, .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px black solid ; */
+}
+
+.bottom-ps{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    width: 30%;
+    margin: 0px 15px;
+}
+
+.menu p, .bottom-ps p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80%;
+    letter-spacing: 120%;
+    padding: 5px 15px;
+    margin: 0px 15px;
+    border: 2px lightblue solid;
+    border-radius: 5px;
+    align-self: center;
+    font-weight: 700;
+    color: white;
+    font-size: 120%;
+    text-align: center;
+}
+
+.menu p{
+    width: 30%;
+}
+
+.bottom-ps p{
+    width: 100%;
+}
+
+.btn{
+    background: none;
+    border: none;
+    height: 50px;
+}
+
+.fa{
+    padding: 15px;
+    border: 2px rgb(220, 243, 250) solid;
+    border-radius: 50%;
+    
+}
+
+.fa:hover{
+    border: 2px blue solid;
+    color:black;
+    background-color: white;
+}
+
+.gamebtn{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    background-color: #ADD8E6;
+    border-radius: 12px;
+    margin: 0px 20px;
+    padding: 10px 10px;
+    width: 15%;
+}
+
+.gamebtn:hover:enabled{
+    background-color: #092f56;
+    color: white;
+}
+
+.gamebtn:active:enabled{
+    background-color: #4682B4;
+}
+
+.container{
+    /* background: linear-gradient(to left, #4b79a1, #283e51); */
+    /* border: 2px blue solid; */
+    width: 70%; 
+    height: 400px; 
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+li{
+ list-style: none;
+}
+.bars-div{
+    /* background: #536976; */
+    /* border: 2px black solid ; */
+    width: 80%;
+    height: 250px;
+    /* margin: 12px; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.bar{
+    background: #8B4513;
+    border: 1px solid rgb(247, 243, 243,0.8);
+    /* width: 2%; */
+    width: 10px;
+    height: 250px;
+   
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.base{
+    background: #8B4513;
+    border:1px solid  rgb(247, 243, 243,0.8);
+    width: 80%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.plate{
+    margin-top: 1px;
+    border-radius: 15px;
+    background-color: #CD853F;
+    border: 2px solid black;
+}
+
+#plate-9{
+    width:250px;
+    height: 25px;
+    background-color: white;
+
+}
+#plate-8{
+    width:225px;
+    height: 25px;
+    background-color: pink;
+
+}
+#plate-7{
+    width:200px;
+    height: 25px;
+    background-color: orange;
+
+}
+#plate-6{
+    width:175px;
+    height: 25px;
+    background-color: indigo;
+
+}
+#plate-5{
+    width:150px;
+    height: 25px;
+    background-color: yellow;
+
+}
+#plate-4{
+    width:125px;
+    height: 25px;
+    background-color: green;
+
+    
+}
+#plate-3{
+    width:100px;
+    height: 25px;
+    background-color: blue;
+
+}
+#plate-2{
+    width:75px;
+    height: 25px;
+    background-color: red;
+
+}
+#plate-1{
+    width:50px;
+    height: 25px;
+    background-color: violet;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(0,0,0,0.6);
+    color:white ;
+    margin-top: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

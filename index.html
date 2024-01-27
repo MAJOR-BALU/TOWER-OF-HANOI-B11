@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Tower of Hanoi</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+                <img src="https://bvrit.ac.in/wp-content/uploads/2023/04/BVRIT-engineering-technology-college-logo-narsapur.webp" alt="" height="100px" width="200px">
+                <h2>WELCOME TO OUR WEBSITE</h2>
+                <p></p>
+        </div>
+    </nav>
+    
+    <h1>Tower of Hanoi</h1>
+    <div class="menu">
+        <button class="gamebtn startbtn">Start</button>
+        <button class="btn plateadd"><i class="fa fa-plus fa-lg" aria-hidden="true"></i></button>
+        <p class="noofPlates">No of Plates : 3</p>
+        <button class="btn platedel" disabled=""><i class="fa fa-minus fa-lg" aria-hidden="true"></i></button>
+        <button class="gamebtn resetbtn" disabled="">Reset</button>
+    </div>
+    <div class="container">
+        <div class="bars-div">
+            <div class="bar" id="bar-1" ondrop="drop(event)" ondragover="allowDrop(event)"><div class="plate" id="plate-3" draggable="false" ondragstart="drag(event)"></div><div class="plate" id="plate-2" draggable="false" ondragstart="drag(event)"></div><div class="plate" id="plate-1" draggable="false" ondragstart="drag(event)"></div></div>
+            <div class="bar" id="bar-2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="bar" id="bar-3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="base"></div>
+    </div>
+    <div class="bottom">
+        <button class="btn undobtn" id="undo" disabled=""><i class="fa fa-undo fa-lg" aria-hidden="true"></i></button>
+        <div class="bottom-ps">
+            <p class="countsteps">No of Steps : 0</p>
+            <p id="timershow">Time Left : 1:00</p>
+        </div>
+        <button class="btn redobtn" id="redo" disabled=""><i class="fa fa-repeat fa-lg" aria-hidden="true"></i></button>
+    </div>
+    <footer>
+        <p>Presented by :</p>
+        <h2>TEAM B-11</h2>
+        <ul>
+            <li>G.Bala Subrahmanyam</li>
+            <li>C.Sriharini</li>
+        </ul>
+        <ul>
+            <li>G.Hari sharan</li>
+            <li>CH.Rajesh</li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+
+
+</body></html>
